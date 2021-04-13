@@ -110,7 +110,7 @@
         .background {
             height: 2rem;
             width: 2rem;
-            background: radial-gradient(rgba($green, 1), rgba($green-3, 1));
+            background: radial-gradient(rgba($green-3, 1), rgba($green, 1));
             position: absolute;
             border-radius: 50px;
             right: 2rem;
@@ -124,6 +124,7 @@
             height: 100%;
             width: 100%;
             z-index: 9;
+            
             top: 5.8rem;
             border-radius: 0;
     
@@ -186,6 +187,7 @@
 
                 height: 3rem;
                 width: 5rem;
+
                 background-color: $green;
                 display: flex;
                 flex-direction: column;

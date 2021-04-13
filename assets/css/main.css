@@ -107,7 +107,7 @@ body {
   .header .background {
     height: 2rem;
     width: 2rem;
-    background: radial-gradient(#2da056, #32b260);
+    background: radial-gradient(#32b260, #2da056);
     position: absolute;
     border-radius: 50px;
     right: 2rem;
