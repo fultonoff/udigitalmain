@@ -5,7 +5,7 @@ const toogle = document.querySelector('.toggle');
 const nav =document.querySelector('.list');
 const back = document.querySelector('.background');
 const btn = document.querySelector('.btn');
-const body = document.body;
+
 
 
 

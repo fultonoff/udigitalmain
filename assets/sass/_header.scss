@@ -1,6 +1,6 @@
 .header {
  
-    background-image: linear-gradient(to right top, $blue, $pink);
+    background-image: linear-gradient(to right top, $blue, $pink-light);
     background-position: center;
     background-size: cover;
 
@@ -289,10 +289,19 @@
         align-items: center;
         padding-bottom: 8rem;
 
+        @media only screen and(max-width: 43.75em){
+            flex-direction: column;
+        }
+
 
         .text{
             flex: 1;
             // align-self: flex-end;
+
+            @media only screen and(max-width: 43.75em){
+                width: 100%;
+                text-align: center;
+            }
 
             &__description{
                 font-size: 1.6rem;

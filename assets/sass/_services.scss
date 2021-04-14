@@ -1,0 +1,146 @@
+.services{
+    max-width: 110rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+    grid-template-rows: repeat(3, 1fr);
+ 
+   
+
+    grid-gap: 6rem;
+
+    &>*{
+        display: grid;
+        grid-template-columns: min-content 1fr;
+        height: 20rem;
+        
+        
+
+        .image-box{
+            background-color: aqua;
+            height: 8rem;
+            width: 8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50px;
+            margin-right: 1rem;
+            box-shadow: 5px 5px 5px -5px rgba(0,0,0,0.14);
+        }
+
+
+    }
+
+    
+
+    .item-1{
+
+        .image-box{
+            background-color: $yellow;
+        }
+
+        .text-box{
+            background-color: rgba($yellow, 0.1);
+            padding: 2rem;
+            margin-right: 2rem;
+            box-shadow:5px 5px 5px -5px rgba(0,0,0,0.14);
+        }
+        
+    }
+
+    .item-2{
+
+        .image-box{
+            background-color: $green;
+        }
+
+        .text-box{
+            background-color: rgba($green, 0.1);
+            padding: 2rem;
+            margin-right: 2rem;
+            box-shadow: 5px 5px 5px -5px rgba(0,0,0,0.14);
+        }
+        
+    }
+
+    .item-3{
+
+        .image-box{
+            background-color: $purple;
+        }
+
+        .text-box{
+            background-color: rgba($purple, 0.1);
+            padding: 2rem;
+            margin-right: 2rem;
+            box-shadow: 5px 5px 5px -5px rgba(0,0,0,0.14);
+        }
+        
+    }
+
+    .item-4{
+
+        .image-box{
+            background-color: $pink;
+        }
+
+        .text-box{
+            background-color: rgba($pink, 0.1);
+            padding: 2rem;
+            margin-right: 2rem;
+            box-shadow: 5px 5px 5px -5px rgba(0,0,0,0.14);
+        }
+        
+    }
+
+
+    .item-5{
+
+        .image-box{
+            background-color: $orange;
+        }
+
+        .text-box{
+            background-color: rgba($orange, 0.1);
+            padding: 2rem;
+            margin-right: 2rem;
+            box-shadow: 5px 5px 5px -5px rgba(0,0,0,0.14);
+            
+        }
+        
+    }
+
+    .item-6{
+
+        .image-box{
+            background-color: $blue-dark;
+        }
+
+        .text-box{
+            background-color: rgba($blue-dark, 0.1);
+            padding: 2rem;
+            margin-right: 2rem;
+            box-shadow: 5px 5px 5px -5px rgba(0,0,0,0.14);
+        }
+        
+    }
+
+
+}
+
+.services__description{
+    text-align: center;
+    margin: 4rem 0 10rem 0;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+
+    p{
+        font-size: 1.6rem;
+        margin-top: 2rem;
+    }
+}

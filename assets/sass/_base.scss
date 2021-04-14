@@ -15,10 +15,13 @@ $blue-light: #f4f9ff;
 
 
 $blue: #D2FFFC;
+$blue-dark: #0081F5;
 $blue-light: #f4f9ff;
 
 
-$pink: #FFE9E2;
+$pink-light: #FFE9E2;
+$pink: #F55498;
+$orange: #FF3F00;
 
 $grey: #616161;
 $grey: #aaaaaa;
@@ -37,7 +40,19 @@ $white: #ffffff;
 
 html{
     font-size: 62.5%;
-    
+    box-sizing: inherit;
+
+    @media only screen and(max-width: 68em){
+        font-size: 50%;
+    }
+
+    @media only screen and(max-width: 56.25em){
+        font-size: 37.5%;
+    }
+
+    @media only screen and(max-width: 43.75em){
+        font-size: 25%;
+    }
 }
 
 body{
