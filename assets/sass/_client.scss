@@ -1,0 +1,27 @@
+.client{
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: -10rem;
+    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+
+    &__img{
+
+        height: 15rem;
+        width: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // box-shadow: 5px 5px 10px -4px rgba(45,160,86,0.08);
+        margin: 2rem;
+        filter: grayscale(100%);
+
+        &:hover{
+            filter: grayscale(0);
+        }
+        
+    }
+}

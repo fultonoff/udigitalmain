@@ -1,5 +1,5 @@
 .header {
-    height: 200vh;
+ 
     background-image: linear-gradient(to right top, $blue, $pink);
     background-position: center;
     background-size: cover;
@@ -15,7 +15,7 @@
         justify-content: space-between;
         max-width: 140rem;
         margin: 0 auto;
-        padding: 2rem;
+        padding: 2rem 0;
         align-items: center;
 
         .toggle {
@@ -36,6 +36,7 @@
 
         .list {
             display: flex;
+           
 
 
             &__item {
@@ -62,7 +63,7 @@
 
             &__link {
                 color: $green;
-                transition: all .4s ease-in-out;
+                transition: all .6s ease-in-out;
 
 
             }
@@ -77,9 +78,7 @@
 
         }
 
-        .list .active {
-            display: block;
-        }
+        
 
         .btn {
             font-family: inherit;
@@ -105,6 +104,9 @@
 
     @media only screen and (max-width: 48em) {
 
+        
+
+
 
 
         .background {
@@ -112,10 +114,10 @@
             width: 2rem;
             background: radial-gradient(rgba($green-3, 1), rgba($green, 1));
             position: absolute;
-            border-radius: 50px;
+            // border-radius: 50px;
             right: 2rem;
             top: 3rem;
-            transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition: all .2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
             
 
         }
@@ -127,6 +129,7 @@
             
             top: 5.8rem;
             border-radius: 0;
+            position: fixed;
     
 
 
@@ -154,6 +157,8 @@
                 display: block;
 
                 z-index: 20;
+                transition-delay: 1s;
+                position: fixed;
 
 
 
@@ -181,6 +186,7 @@
                 color: $green;
                 display: block;
                 transition-delay: 1s, 250ms;
+                position: fixed;
             }
 
             .toggle {
@@ -203,6 +209,8 @@
                 }
 
                 &.active {
+                    position: fixed;
+                    right: 2rem;
 
                     
 
@@ -270,7 +278,50 @@
     }
 
 
-    &__content {}
+    &__content {
+
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 140rem;
+        justify-content: center;
+        margin: 10rem auto;
+        align-items: center;
+        padding-bottom: 8rem;
+
+
+        .text{
+            flex: 1;
+            // align-self: flex-end;
+
+            &__description{
+                font-size: 1.6rem;
+                padding: 2rem 0;
+            }
+
+            .btn{
+               color: $white;
+               border: none;
+               box-shadow: 0 5px 20px rgba($green, 0.4);
+               border-radius: .2rem;
+               font-size: 2rem;
+               font-family: inherit;
+               background-color: $green;
+               margin-top: 4rem;
+               
+            }
+        }
+
+        .image{
+            display: flex;
+            flex:  1;
+            justify-self: center;
+
+            img{
+                width: 100%;
+            }
+        }
+
+    }
 
 
 

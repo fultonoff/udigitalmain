@@ -1,0 +1,32 @@
+.h-1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.mt{
+    margin-top: 8rem;
+}
+
+.nzali{
+    height: 30%;
+    width: 45%;
+}
+
+.p-btn{
+    padding: 2rem 4rem;
+}
+
+
+.hover:hover{
+    transform: translateY(3px);
+    cursor: pointer;
+}
+
+.trans{
+    transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    outline: none;
+
+    &:active{
+        transform: translateY(-3px);
+    }
+}
