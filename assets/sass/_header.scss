@@ -115,7 +115,7 @@
             background: radial-gradient(rgba($green-3, 1), rgba($green, 1));
             position: absolute;
             // border-radius: 50px;
-            transform: scale(0);
+            opacity: 0;
             right: 0;
             top: 3rem;
             transition: all .2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -127,7 +127,7 @@
             height: 100%;
             width: 100%;
             z-index: 9;
-            transform: scale(1);
+            opacity: 1;
             top: 5.8rem;
             border-radius: 0;
             position: fixed;
