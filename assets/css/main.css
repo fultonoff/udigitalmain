@@ -585,6 +585,10 @@ body {
           box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.14);
 }
 
+.services > * .image-box img {
+  width: 50%;
+}
+
 .services .item-1 .image-box {
   background-color: #F3C203;
 }

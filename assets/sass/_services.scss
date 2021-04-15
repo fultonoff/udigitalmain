@@ -33,6 +33,9 @@
             border-radius: 50px;
             // margin-right: 1rem;
             box-shadow: 5px 5px 5px -5px rgba(0,0,0,0.14);
+            img{
+                width: 50%;
+            }
         }
 
 
@@ -44,10 +47,12 @@
 
         .image-box{
             background-color: $yellow;
+            
         }
 
         .text-box{
             background-color: rgba($yellow, 0.1);
+            
             padding: 2rem;
             margin-right: 2rem;
             box-shadow:5px 5px 5px -5px rgba(0,0,0,0.14);

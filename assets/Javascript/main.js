@@ -25,10 +25,10 @@ toogle.addEventListener('click', (e) =>{
 
 var owl = $('.owl-carousel');
 owl.owlCarousel({
-    items: 4,
+    items: 1,
         loop: true,
-        autoWidth:true,
-        
+        // autoWidth:true,
+        center: true,
         autoplay: true,
         autoplayTimeout: 3000,
         slideTransition: 'linear',
