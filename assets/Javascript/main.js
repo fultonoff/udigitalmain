@@ -27,14 +27,16 @@ var owl = $('.owl-carousel');
 owl.owlCarousel({
     items: 1,
         loop: true,
-        // autoWidth:true,
+        autoWidth:true,
         center: true,
-        autoplay: true,
+        // autoplay: true,
         autoplayTimeout: 4000,
         slideTransition: 'linear',
         autoplaySpeed: 4000,
         autoplayHoverPause: false,
         dots: false
+
+       
         
 
         
