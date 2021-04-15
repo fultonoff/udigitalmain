@@ -99,10 +99,6 @@ body {
   display: none;
 }
 
-.header__nav .logo {
-  z-index: 30;
-}
-
 .header__nav .list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -173,7 +169,7 @@ body {
     width: 100%;
     z-index: 9;
     opacity: 1;
-    top: 5.8rem;
+    top: 0;
     border-radius: 0;
     position: fixed;
   }
@@ -190,11 +186,21 @@ body {
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
+  .header__nav .list__link:link, .header__nav .list__link:active {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    font-size: 5rem;
+    text-transform: uppercase;
+  }
   .header__nav .list__link {
+    color: #ffffff;
+  }
+  .header__nav .list__link.active {
     color: #ffffff;
   }
   .header__nav .list.active {
     display: block;
+    font-size: 10rem;
     z-index: 20;
     -webkit-transition-delay: 1s;
             transition-delay: 1s;
