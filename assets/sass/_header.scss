@@ -23,9 +23,7 @@
             display: none;
         }
 
-        .logo {
-            // z-index: 30;
-        }
+        
 
 
 
@@ -215,8 +213,8 @@
 
             .toggle {
 
-                height: 3rem;
-                width: 5rem;
+                height: 6rem;
+                width: 7rem;
 
                 background-color: $green;
                 display: flex;
@@ -226,10 +224,11 @@
                 z-index: 10;
 
                 span {
-                    width: 3rem;
+                    width: 4rem;
                     height: 2px;
                     border-radius: 50px;
                     background-color: $white;
+                    
                 }
 
                 &.active {
@@ -264,6 +263,7 @@
                 .line {
                     position: relative;
                     transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                    
                    
 
 
@@ -272,8 +272,8 @@
                         position: absolute;
                         content: '';
                         top: 6px;
-                        left: -15px;
-                        width: 3rem;
+                        left: -8px;
+                        width: 4rem;
                         height: 2px;
                         border-radius: 50px;
                         background-color: $white;
@@ -284,8 +284,8 @@
                         position: absolute;
                         content: '';
                         top: -10px;
-                        left: -15px;
-                        width: 3rem;
+                        left: -8px;
+                        width: 4rem;
                         height: 2px;
                         border-radius: 50px;
                         background-color: $white;
@@ -311,6 +311,10 @@
         margin: 10rem auto;
         align-items: center;
         padding-bottom: 8rem;
+
+        @media only screen and(max-width: 87em){
+            margin: 0 1rem;
+        }
         
 
         @media only screen and(max-width: 43.75em){

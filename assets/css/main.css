@@ -159,13 +159,14 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: -10rem;
+  margin-top: 5rem;
   -webkit-transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   overflow: hidden;
 }
 
 .client__img {
+  overflow: hidden;
   height: 15rem;
   width: 20rem;
   display: -webkit-box;
@@ -346,8 +347,8 @@ body {
     position: fixed;
   }
   .header__nav .toggle {
-    height: 3rem;
-    width: 5rem;
+    height: 6rem;
+    width: 7rem;
     background-color: #2da056;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -365,7 +366,7 @@ body {
     z-index: 10;
   }
   .header__nav .toggle span {
-    width: 3rem;
+    width: 4rem;
     height: 2px;
     border-radius: 50px;
     background-color: #ffffff;
@@ -396,8 +397,8 @@ body {
     position: absolute;
     content: '';
     top: 6px;
-    left: -15px;
-    width: 3rem;
+    left: -8px;
+    width: 4rem;
     height: 2px;
     border-radius: 50px;
     background-color: #ffffff;
@@ -408,8 +409,8 @@ body {
     position: absolute;
     content: '';
     top: -10px;
-    left: -15px;
-    width: 3rem;
+    left: -8px;
+    width: 4rem;
     height: 2px;
     border-radius: 50px;
     background-color: #ffffff;
@@ -433,6 +434,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 8rem;
+}
+
+@media only screen and (max-width: 87em) {
+  .header__content {
+    margin: 0 1rem;
+  }
 }
 
 @media only screen and (max-width: 43.75em) {

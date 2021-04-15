@@ -30,9 +30,9 @@ owl.owlCarousel({
         // autoWidth:true,
         center: true,
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 4000,
         slideTransition: 'linear',
-        autoplaySpeed: 3000,
+        autoplaySpeed: 4000,
         autoplayHoverPause: false,
         dots: false
         
