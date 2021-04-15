@@ -48,6 +48,7 @@ body {
   margin-top: -10rem;
   -webkit-transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  overflow: hidden;
 }
 
 .client__img {
@@ -365,8 +366,8 @@ body {
 
 @media only screen and (max-width: 43.75em) {
   .header__content .image {
-    height: 50rem;
-    width: 60rem;
+    height: 40rem;
+    width: 50rem;
   }
 }
 
@@ -424,14 +425,14 @@ body {
   max-width: 110rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10rem;
+  margin-bottom: 20rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(50rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
   -ms-grid-rows: (1fr)[3];
       grid-template-rows: repeat(3, 1fr);
-  grid-gap: 6rem;
+  grid-gap: 8rem;
 }
 
 .services > * {
@@ -538,8 +539,8 @@ body {
 
 .services__description {
   text-align: center;
-  margin: 4rem 0 10rem 0;
-  width: 30%;
+  margin: 5rem 0 10rem 0;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
