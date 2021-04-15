@@ -1,0 +1,98 @@
+.about-us{
+    background-image: linear-gradient(to right top,  #D2FFFC, #FFE9E2);
+
+    background-size: auto;
+
+    .about{
+        max-width: 130rem;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        position: relative;
+
+        @media only screen and(max-width: 56.25em){
+            display: flex;
+            flex-direction: column-reverse;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+        }
+       
+
+        &__img{
+            position: relative;
+            z-index: 10;
+
+            @media only screen and(max-width: 56.25em){
+               margin-left: 40rem;
+               
+                
+            }
+
+            img{
+                @media only screen and(max-width: 56.25em){
+                    width: 40%;
+                    overflow: hidden;
+                   ;
+                    
+                    
+                }
+            }
+            
+            
+            &::before{
+                position: absolute;
+                top: 7rem;
+                left: 5rem;
+                content: url(../img/circle.png);
+                z-index: -1;
+
+                @media only screen and(max-width: 56.25em){
+                    display: none;
+                }
+            }
+        }
+
+        &__content{
+            position: relative;
+            margin-top: 10rem;
+
+            @media only screen and(max-width: 56.25em){
+                text-align: center;
+                max-width: 50%;
+                margin: 0 auto;
+            }
+
+            
+
+            h1{
+                margin-bottom: 1rem;
+
+                &::before{
+                    position: absolute;
+                    top: -6rem;
+                    left: 20rem;
+                    content: url(../img/love.png);
+                    height: 4rem;
+                    z-index: 30;
+
+                    @media only screen and(max-width: 56.25em){
+                        display: none;
+                        
+                    }
+                }
+                
+
+                
+            }
+
+            p{
+                margin: 2rem 0;
+                // max-width: 70%;
+                font-size: 1.6rem;
+            }
+        }
+
+    }
+    
+}

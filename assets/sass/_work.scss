@@ -1,0 +1,71 @@
+.work{
+    max-width: 140rem;
+    margin: 0 auto;
+
+    &__btn{
+        text-align: center;
+        
+        .btn{
+            border: none;
+            color: $white;
+            background-color: $green;
+            margin: 2rem;
+            font-size: 2rem;
+            
+
+        }
+    }
+
+    &__description{
+        text-align: center;
+        margin: 10rem 0;
+
+        p{
+            font-size: 1.6rem;
+        }
+    }
+
+    &__grid{
+       
+        display: flex;
+        justify-content: center;
+        // flex-flow: row wrap;
+        align-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 140rem;
+
+        .box{
+            margin: 3rem;
+            box-shadow: 5px 5px 11px -5px rgba(0,0,0,0.22);
+            transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            cursor: pointer;
+            overflow: hidden;
+
+            &:hover{
+                transform: translateY(3px);
+            }
+
+            &:hover img{
+                transform: scale(1.1);
+            }
+
+            img{
+                transition: all .5s;
+            }
+
+            &__tittle{
+                padding: 2rem;
+            }
+
+            &__description{
+                padding: 2rem 2rem;
+                font-weight: 700;
+            }
+
+
+
+        }
+    }
+}

@@ -42,6 +42,10 @@ html{
     font-size: 62.5%;
     box-sizing: inherit;
 
+    scroll-behavior: smooth;
+
+    
+
     @media only screen and(max-width: 68em){
         font-size: 50%;
     }
