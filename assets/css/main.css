@@ -363,6 +363,13 @@ body {
   justify-self: center;
 }
 
+@media only screen and (max-width: 43.75em) {
+  .header__content .image {
+    height: 50rem;
+    width: 60rem;
+  }
+}
+
 .header__content .image img {
   width: 100%;
 }
