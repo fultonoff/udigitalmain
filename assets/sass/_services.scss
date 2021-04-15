@@ -15,8 +15,9 @@
 
     &>*{
         display: grid;
-        grid-template-columns: min-content 1fr;
+        grid-template-columns: minmax(1fr);
         height: 20rem;
+        transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         
         
 
@@ -24,11 +25,13 @@
             background-color: aqua;
             height: 8rem;
             width: 8rem;
+            margin-left: auto;
+            margin-right: auto;
             display: flex;
             align-items: center;
             justify-content: center;
             border-radius: 50px;
-            margin-right: 1rem;
+            // margin-right: 1rem;
             box-shadow: 5px 5px 5px -5px rgba(0,0,0,0.14);
         }
 
