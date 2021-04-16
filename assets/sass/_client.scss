@@ -8,6 +8,11 @@
     transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     overflow: hidden;
 
+    @media only screen and(max-width: 43.75em){
+        display: none;
+    }
+
+
 
     &__img{
         overflow: hidden;
@@ -24,6 +29,8 @@
         &:hover{
             filter: grayscale(0);
         }
+
+        
 
         
         

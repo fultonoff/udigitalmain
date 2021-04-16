@@ -165,6 +165,12 @@ body {
   overflow: hidden;
 }
 
+@media only screen and (max-width: 43.75em) {
+  .client {
+    display: none;
+  }
+}
+
 .client__img {
   overflow: hidden;
   height: 15rem;
@@ -461,6 +467,7 @@ body {
   .header__content .text {
     width: 100%;
     text-align: center;
+    margin-top: 10rem;
   }
 }
 
