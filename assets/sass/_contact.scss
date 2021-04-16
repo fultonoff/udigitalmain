@@ -1,0 +1,57 @@
+.contact{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10rem 0;
+
+    .form{
+        margin: 6rem auto;
+        max-width: 110rem;
+        width: 100%;
+
+        .name{
+            display: flex;
+            align-items: center;
+            position: relative;
+
+            input-phone{
+                background: url(../img/phone.png);
+            }
+            
+            
+            
+
+            img{
+              
+            }
+
+            input{
+                margin: 2rem 0;
+                text-align: center;
+              
+                font-size: 1.6rem;
+                padding: 2rem 0;
+                
+                border: none;
+                border-bottom: 1px solid $green;
+                width: 100%;
+                outline: none;
+                ;
+                
+
+                &:focus{
+                  border-bottom: 1px solid $orange;
+                }
+
+                &:valid{
+                    border-bottom: 3px solid $green;
+                }
+
+                
+            }
+            
+        }
+    }
+
+}
