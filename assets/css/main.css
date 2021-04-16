@@ -402,8 +402,8 @@ body {
   .header__nav .toggle .line::before {
     position: absolute;
     content: '';
-    top: 6px;
-    left: -8px;
+    top: 4px;
+    left: -10px;
     width: 4rem;
     height: 2px;
     border-radius: 50px;
@@ -414,8 +414,8 @@ body {
   .header__nav .toggle .line::after {
     position: absolute;
     content: '';
-    top: -10px;
-    left: -8px;
+    top: -8px;
+    left: -10px;
     width: 4rem;
     height: 2px;
     border-radius: 50px;
