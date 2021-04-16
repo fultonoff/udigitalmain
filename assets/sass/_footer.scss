@@ -43,6 +43,14 @@
             
             
         }
+
+        h3{
+            @media only screen and(max-width: 37.5em){
+                font-size: 4rem;
+                
+                
+            }
+        }
         ul{
             li{
                 list-style: none;
@@ -51,6 +59,12 @@
                      font-size: 1.6rem;
                      text-decoration: none;
                      color: #000;
+
+                     @media only screen and(max-width: 37.5em){
+                        font-size: 2rem;
+                        
+                        
+                    }
 
                      &:hover{
                          color: $green;

@@ -333,6 +333,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 37.5em) {
+  .footer__company h3 {
+    font-size: 4rem;
+  }
+}
+
 .footer__company ul li {
   list-style: none;
   padding: 1rem 0;
@@ -342,6 +348,12 @@ body {
   font-size: 1.6rem;
   text-decoration: none;
   color: #000;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .footer__company ul li a {
+    font-size: 2rem;
+  }
 }
 
 .footer__company ul li a:hover {
