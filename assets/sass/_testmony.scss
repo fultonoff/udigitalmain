@@ -1,0 +1,82 @@
+
+.testmony{
+
+    background-color: $blue;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  
+    
+    
+
+    
+
+    #owl-tesmony {
+
+        max-width: 110rem;
+        margin: 0 auto;
+        text-align: center;
+        
+        
+        
+        
+        
+       
+        
+
+        .item{
+
+           
+            width: 100%;
+            background-color: $white;
+            border-radius: 10px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            
+           
+            &__img{
+                height: 9rem;
+                width: 9rem;
+                padding-top: 1rem;
+                
+                
+                
+
+                img{
+                    width: 100%;
+                    border: 5px solid $green;
+                border-radius: 50%;
+               
+               
+                }
+            }
+            
+
+            &__name{
+                margin-top: 2rem;
+            }
+
+            &__role{
+                color: $grey-1;
+                font-size: 1.4rem;
+                margin-bottom: 2rem;
+                font-weight: 100;
+            }
+
+            &__detail{
+                padding: 4rem;
+                font-size: 1.6rem;
+            }
+
+            
+        } 
+
+    }
+
+}

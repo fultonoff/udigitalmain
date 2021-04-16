@@ -159,7 +159,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 5rem;
+  margin-top: -10rem;
   -webkit-transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   overflow: hidden;
@@ -500,6 +500,75 @@ body {
 
 .header__content .image img {
   width: 100%;
+}
+
+.testmony {
+  background-color: #D2FFFC;
+  margin-top: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50vh;
+}
+
+.testmony #owl-tesmony {
+  max-width: 110rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.testmony #owl-tesmony .item {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testmony #owl-tesmony .item__img {
+  height: 9rem;
+  width: 9rem;
+  padding-top: 1rem;
+}
+
+.testmony #owl-tesmony .item__img img {
+  width: 100%;
+  border: 5px solid #2da056;
+  border-radius: 50%;
+}
+
+.testmony #owl-tesmony .item__name {
+  margin-top: 2rem;
+}
+
+.testmony #owl-tesmony .item__role {
+  color: #616161;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  font-weight: 100;
+}
+
+.testmony #owl-tesmony .item__detail {
+  padding: 4rem;
+  font-size: 1.6rem;
 }
 
 .h-1 {

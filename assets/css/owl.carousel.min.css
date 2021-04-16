@@ -77,7 +77,10 @@
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none
+    user-select: none;
+    outline: none;
+    
+    
 }
 
 .owl-carousel .owl-nav button.owl-next,
