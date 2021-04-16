@@ -149,6 +149,16 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
+::-moz-selection {
+  background-color: #2da056;
+  color: #ffffff;
+}
+
+::selection {
+  background-color: #2da056;
+  color: #ffffff;
+}
+
 .client {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -521,12 +531,26 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 50vh;
+  position: relative;
+}
+
+.testmony::after {
+  position: absolute;
+  content: "\201C";
+  color: #2da056;
+  height: 50rem;
+  width: 40rem;
+  font-size: 20rem;
+  right: 0;
+  top: -25rem;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  z-index: 9999999;
 }
 
 .testmony #owl-tesmony {
   max-width: 110rem;
-  margin: 0 auto;
+  margin: 10rem auto;
   text-align: center;
 }
 

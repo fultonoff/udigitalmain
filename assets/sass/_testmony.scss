@@ -6,7 +6,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    // height: 100vh;
+    position: relative;
+
+    &::after{
+        position: absolute;
+        content: "\201C";
+        color: $green;
+
+        height: 50rem;
+        width: 40rem;
+        font-size: 20rem;
+        right: 0;
+        top: -25rem;
+        transform: translate(-50%, 50%);
+        z-index: 9999999;
+        
+    }
   
     
     
@@ -16,8 +32,10 @@
     #owl-tesmony {
 
         max-width: 110rem;
-        margin: 0 auto;
+        margin: 10rem auto;
         text-align: center;
+
+
         
         
         
