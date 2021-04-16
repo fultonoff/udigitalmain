@@ -317,6 +317,14 @@ body {
   padding: 1rem 0;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .footer__company {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+
 .footer__company ul li {
   list-style: none;
   padding: 1rem 0;
