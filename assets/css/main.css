@@ -403,7 +403,7 @@ body {
     position: absolute;
     content: '';
     top: 4px;
-    left: -14px;
+    left: -18px;
     width: 4rem;
     height: 2px;
     border-radius: 50px;
@@ -415,7 +415,7 @@ body {
     position: absolute;
     content: '';
     top: -8px;
-    left: -14px;
+    left: -18px;
     width: 4rem;
     height: 2px;
     border-radius: 50px;
