@@ -204,6 +204,18 @@ body {
           filter: grayscale(0);
 }
 
+.btn {
+  color: #ffffff;
+  border: none;
+  -webkit-box-shadow: 0 5px 20px rgba(45, 160, 86, 0.4);
+          box-shadow: 0 5px 20px rgba(45, 160, 86, 0.4);
+  border-radius: .2rem;
+  font-size: 2rem;
+  font-family: inherit;
+  background-color: #2da056;
+  margin-top: 4rem;
+}
+
 .header {
   background-image: linear-gradient(45deg, #D2FFFC, #FFE9E2);
   background-position: center;
@@ -486,18 +498,6 @@ body {
   padding: 2rem 0;
 }
 
-.header__content .text .btn {
-  color: #ffffff;
-  border: none;
-  -webkit-box-shadow: 0 5px 20px rgba(45, 160, 86, 0.4);
-          box-shadow: 0 5px 20px rgba(45, 160, 86, 0.4);
-  border-radius: .2rem;
-  font-size: 2rem;
-  font-family: inherit;
-  background-color: #2da056;
-  margin-top: 4rem;
-}
-
 .header__content .image {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -552,6 +552,7 @@ body {
   max-width: 110rem;
   margin: 10rem auto;
   text-align: center;
+  padding: 0 2rem;
 }
 
 .testmony #owl-tesmony .item {
