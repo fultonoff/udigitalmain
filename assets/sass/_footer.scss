@@ -1,0 +1,29 @@
+.footer__section{
+    background-color: $pink-light;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 5rem 0;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 110rem;
+
+    @media only screen and(max-width: 37.5em){
+        flex-direction: column;
+    }
+
+    // &__logo{
+    //     flex: 1;
+    // }
+
+    // &__company{
+    //     flex: 1;
+    // }
+
+    // &__links{
+    //     flex: 1;
+    // }
+}
