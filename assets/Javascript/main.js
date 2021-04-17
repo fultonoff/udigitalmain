@@ -5,6 +5,7 @@ const toogle = document.querySelector('.toggle');
 const nav =document.querySelector('.list');
 const back = document.querySelector('.background');
 const btn = document.querySelector('.btn');
+const head = document.querySelector('.header__nav');
 
 
 
@@ -16,9 +17,15 @@ toogle.addEventListener('click', (e) =>{
     back.classList.toggle('active');
     btn.classList.toggle('active');
     toogle.classList.toggle('active');
+
+    
     
 
 })
+
+$( '.list li a' ).on("click", function(){
+    $('.toggle').click();
+  });
 
 //////////////////////////////////////////////////////
 ///// client slide
@@ -63,3 +70,10 @@ $(document).ready(function() {
     });
    
   });
+
+
+
+
+  //////////////////////////////////
+  ///AOS 
+  AOS.init();
