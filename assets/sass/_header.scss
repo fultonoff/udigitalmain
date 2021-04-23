@@ -125,7 +125,7 @@
                 top: -1000%;
                 left: 50%;
                 justify-content: center;
-                background-color: green;
+                background-color: $green;
                z-index: 10;
                 
                 flex-direction: column;
@@ -134,7 +134,7 @@
 
                 &__link:link,
                 &__link:active{
-                    transition: all .5s;
+                    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
                     font-size: 5rem;
                     text-transform: uppercase;
                     
@@ -173,13 +173,7 @@
     
     
     
-                    &__item {
-                       
-    
-                        
-                        
-                        
-                    }
+                   
                 }
             }
 
@@ -210,14 +204,14 @@
                     width: 5rem;
                     height: 2px;
                     border-radius: 50px;
-                    background-color: red;
+                    background-color: $green;
 
                     transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
                     &::before{
                         position: absolute;
                         content: '';
-                        background-color: red;
+                        background-color: $green;
                         width: 5rem;
                     height: 2px;
                     top: 40px;
@@ -226,7 +220,7 @@
                     &::after{
                         position: absolute;
                         content: '';
-                        background-color: red;
+                        background-color: $green;
                         width: 5rem;
                     height: 2px;
                     top: 20px;
@@ -244,6 +238,7 @@
 
                     span {
                         width: 0;
+                        background-color: $white;
                     }
 
 
@@ -253,11 +248,13 @@
                         &::before {
                             transform: rotate(135deg);
                             top: 0rem;
+                            background-color: $white;
                         }
 
                         &::after {
                             transform: rotate(-135deg);
                             top:0rem;
+                            background-color: $white;
                         }
                     }
                 }

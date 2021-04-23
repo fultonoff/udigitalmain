@@ -477,7 +477,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: green;
+    background-color: #2da056;
     z-index: 10;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -489,8 +489,8 @@ body {
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .header__nav .list__link:link, .header__nav .list__link:active {
-    -webkit-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     font-size: 5rem;
     text-transform: uppercase;
   }
@@ -534,14 +534,14 @@ body {
     width: 5rem;
     height: 2px;
     border-radius: 50px;
-    background-color: red;
+    background-color: #2da056;
     -webkit-transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .header__nav .toggle span::before {
     position: absolute;
     content: '';
-    background-color: red;
+    background-color: #2da056;
     width: 5rem;
     height: 2px;
     top: 40px;
@@ -549,7 +549,7 @@ body {
   .header__nav .toggle span::after {
     position: absolute;
     content: '';
-    background-color: red;
+    background-color: #2da056;
     width: 5rem;
     height: 2px;
     top: 20px;
@@ -560,16 +560,19 @@ body {
   }
   .header__nav .toggle.active span {
     width: 0;
+    background-color: #ffffff;
   }
   .header__nav .toggle.active span::before {
     -webkit-transform: rotate(135deg);
             transform: rotate(135deg);
     top: 0rem;
+    background-color: #ffffff;
   }
   .header__nav .toggle.active span::after {
     -webkit-transform: rotate(-135deg);
             transform: rotate(-135deg);
     top: 0rem;
+    background-color: #ffffff;
   }
 }
 
