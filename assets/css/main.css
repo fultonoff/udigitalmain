@@ -532,19 +532,9 @@ body {
             transform: translate(-50%, -50%);
     display: none;
   }
-  .header__nav .btn.active {
-    z-index: 20;
-    background-color: #ffffff;
-    color: #2da056;
-    display: block;
-    -webkit-transition-delay: 1s, 250ms;
-            transition-delay: 1s, 250ms;
-    position: fixed;
-  }
   .header__nav .toggle {
     height: 6rem;
     width: 7rem;
-    background-color: #2da056;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
