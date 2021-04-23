@@ -513,8 +513,6 @@ body {
     display: none;
   }
   .header__nav .toggle {
-    height: 6rem;
-    width: 7rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -554,10 +552,6 @@ body {
     height: 2px;
     top: 20px;
   }
-  .header__nav .toggle.active {
-    position: fixed;
-    right: 17rem;
-  }
   .header__nav .toggle.active span {
     width: 0;
     background-color: #ffffff;
@@ -565,13 +559,11 @@ body {
   .header__nav .toggle.active span::before {
     -webkit-transform: rotate(135deg);
             transform: rotate(135deg);
-    top: 0rem;
     background-color: #ffffff;
   }
   .header__nav .toggle.active span::after {
     -webkit-transform: rotate(-135deg);
             transform: rotate(-135deg);
-    top: 0rem;
     background-color: #ffffff;
   }
 }

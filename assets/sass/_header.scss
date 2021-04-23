@@ -190,8 +190,7 @@
 
             .toggle {
 
-                height: 6rem;
-                width: 7rem;
+                
 
                 // background-color: $green;
                 display: flex;
@@ -229,8 +228,8 @@
                 }
 
                 &.active {
-                    position: fixed;
-                    right: 17rem;
+                   
+                   
                     
 
                     
@@ -247,13 +246,13 @@
 
                         &::before {
                             transform: rotate(135deg);
-                            top: 0rem;
+                            // top: 0rem;
                             background-color: $white;
                         }
 
                         &::after {
                             transform: rotate(-135deg);
-                            top:0rem;
+                            // top:0rem;
                             background-color: $white;
                         }
                     }
